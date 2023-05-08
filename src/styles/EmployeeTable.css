@@ -1,0 +1,83 @@
+/* Table title */
+.table-title {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+}
+
+/* Employee table */
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 12px;
+    text-align: left;
+    font-weight: normal;
+    font-family: "Open Sans", sans-serif;
+}
+
+.employee-table th {
+    background-color: #ae8611;
+    color: #ffffff;
+    text-align: left;
+    font-size: 18px;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+}
+
+.employee-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+/* Edit and delete buttons */
+.edit-button,
+.delete-button {
+    margin-right: 8px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.edit-button {
+    background-color: #ffa500;
+    margin-right: 15px;
+}
+
+.delete-button {
+    background-color: transparent;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+/* Add button */
+.add-button {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    padding: 12px 24px;
+    background-color: #ffa500;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+}
+
+.add-button:hover {
+    opacity: 0.8;
+}

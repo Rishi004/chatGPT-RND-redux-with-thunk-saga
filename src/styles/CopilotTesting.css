@@ -1,0 +1,66 @@
+/* table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #588c7e;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: left;
+}
+th {
+    background-color: #588c7e;
+    color: white;
+    height: 50px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.edit {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.delete {
+    background-color: #b80b0b;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.add {
+    float: right;
+    background-color: #2d29ac;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: 16%;
+} */

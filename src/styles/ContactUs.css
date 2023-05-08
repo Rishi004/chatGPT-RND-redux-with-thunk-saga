@@ -1,0 +1,88 @@
+.contact-us-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-us-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.contact-us-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-us-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-icon {
+    font-size: 100px;
+    color: #ffa500;
+    margin-bottom: 20px;
+}
+
+.contact-us-section-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.contact-us-section-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-us-section-description {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.contact-us-section-button {
+    width: 145px;
+    height: 35px;
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact-us-section-button:hover {
+    background-color: #ff8c00;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+    .contact-us-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-us-section {
+        margin-bottom: 30px;
+    }
+}
