@@ -4,10 +4,14 @@ import Footer from "../components/footer/Footer";
 import "../styles/ContactUs.css";
 import { RiCustomerService2Line, RiProfileLine } from "react-icons/ri";
 import { BsChatDots } from "react-icons/bs";
+import { useSelector } from "react-redux";
 
 const ContactUs = () => {
+    const { appointments } = useSelector((state) => state.appointmentReducer);
+
     return (
         <>
+            {console.log({ appointments })}
             <Header />
             <div className="contact-us-container">
                 <h1 className="contact-us-title">Contact Us</h1>
